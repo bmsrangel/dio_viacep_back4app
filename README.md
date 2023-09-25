@@ -1,16 +1,14 @@
-# dio_viacep_back4app
+# Desafio Dio: Consumo de APIs REST com Flutter
 
-A new Flutter project.
+## Projeto
 
-## Getting Started
+Este repositório contém o código-fonte de um aplicativo Flutter para consulta de CEPs. CEPs pesquisados pela primeira vez são buscados pela API do ViaCEP e gravados em um banco de dados remoto (Back4App). Estes dados gravados podem ser posteriormente acessados pela aplicação, e também podem ser removidos.
 
-This project is a starting point for a Flutter application.
+<img src="./.github/demonstration.gif" width="250px" />
 
-A few resources to get you started if this is your first Flutter project:
+## Pacotes Utilizados
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [equatable](https://pub.dev/packages/equatable): pacote que possibilita a correta comparação de objetos abstraindo a sobrescrita do operator `==` e do `hashCode`;
+- [dio](https://pub.dev/packages/dio): pacote utilizado para as chamadas HTTP às APIs;
+- [flutter_modular](https://pub.dev/packages/flutter_modular): pacote utilizado para injeções de dependências e como sistema de rotas;
+- [flutter_triple](https://pub.dev/packages/flutter_triple): padrão de gerenciamento de estados proposto pela comunidade Flutterando.
